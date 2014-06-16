@@ -1,0 +1,21 @@
+defaults: &defaults
+  twitter:
+    api_key: "KEY"
+    api_secret: "SECRET"
+  facebook:
+    api_key: "KEY"
+    api_secret: "SECRET"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  twitter:
+    api_key: "KEY2"
+    api_secret: "SECRET2"
+  facebook:
+    api_key: "KEY2"
+    api_secret: "SECRET2"

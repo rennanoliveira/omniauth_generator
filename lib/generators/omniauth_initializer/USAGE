@@ -1,0 +1,10 @@
+Description:
+    Generates all files needed for basic omniauth 'login with facebook or twitter'
+
+Example:
+    rails generate omniauth_initializer Session
+
+    This will create:
+        config/api_keys.yml
+        config/initializers/omniauth_initializer.rb
+        app/controllers/sessions_controller.rb
